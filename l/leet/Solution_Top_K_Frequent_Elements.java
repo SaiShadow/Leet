@@ -6,7 +6,16 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-class Solution {
+/*
+ * My solution to the LeetCode problem: Top K Frequent Elements.
+ * 
+ * n = # of elements
+ * u = # of unique elements
+ * 
+ * Time Complexity  ∊ O(nlog(n) + un)
+ * Space Complexity ∊ O(n)
+ */
+class Solution_Top_K_Frequent_Elements {
 
     public static void main(String args[]) {
         System.out.println();
@@ -15,7 +24,7 @@ class Solution {
                 -68, -94, 58, -51, -26, -38, 5, -74, 25, 71, -93, 52, -12, -86, 7, -86, 53, 78, -31, -5, -87, 88, -98,
                 -39, 9, 99, 23, 96, -90, 51, -64, 35, -73, 9, 60, -78, 70, 99, 14, 70, 71, -78, 50, 7, 46, -89, 57, -1,
                 87, -87, -95, 48, 49, 79, -54, 31, 28, -27, 75, 31, -76, -12, 35, 40, -90, -60, -60, -7, 67, 73, -34,
-                -42, -35, 61, 51, 18, 95, 16, 78, -81, -91, -30, 92, 57, -79, 5}, 7)));
+                -42, -35, 61, 51, 18, 95, 16, 78, -81, -91, -30, 92, 57, -79, 5 }, 7)));
     }
 
     public static int[] topKFrequent(int[] nums, int k) {
@@ -51,13 +60,10 @@ class Solution {
                 int key = key_arr[j];
 
                 if (!seen[j] && map.get(key).equals(i)) {
-
                     sol[size] = key;
                     seen[j] = true;
                     size++;
-                    if (size == k) {
-                        return sol;
-                    }
+                    break;
                 }
             }
 
