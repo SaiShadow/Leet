@@ -1,6 +1,19 @@
-package leet;
+package leet.easy;
 
-public class Sol_Palindrome {
+/**
+ * 
+ * My solution to the LeetCode problem: Valid_Palindrome
+ * 
+ * n = # of elements in @param  
+ * 
+ * Time Complexity ∊ 
+ * Space Complexity ∊ 
+ *
+ * @author S_S_P
+ *
+ */
+public class Valid_Palindrome {
+
     public boolean isPalindrome(String s) {
 
         s = s.toLowerCase();

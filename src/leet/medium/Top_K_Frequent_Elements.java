@@ -1,4 +1,4 @@
-package leet;
+package leet.medium;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,7 +17,7 @@ import java.util.List;
  * @author S_S_P
  *
  */
-class Solution_Top_K_Frequent_Elements {
+class Top_K_Frequent_Elements {
 
     public static void main(String args[]) {
         System.out.println();

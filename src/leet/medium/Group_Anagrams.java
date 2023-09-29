@@ -1,4 +1,4 @@
-package leet;
+package leet.medium;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,7 +18,7 @@ import java.util.List;
  * @author S_S_P
  *
  */
-public class Sol_Group_Anagrams {
+public class Group_Anagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
 
         List<List<String>> sol = new ArrayList<>();

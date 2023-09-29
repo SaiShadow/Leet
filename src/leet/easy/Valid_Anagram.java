@@ -1,8 +1,20 @@
-package leet;
+package leet.easy;
 
 import java.util.Arrays;
 
-public class Sol_Valid_Anagram {
+/**
+ * 
+ * My solution to the LeetCode problem: Valid_Anagram
+ * 
+ * n = # of char in @param s and t  
+ * 
+ * Time Complexity ∊ O(n log(n)) 
+ * Space Complexity ∊ O(n) 
+ *
+ * @author S_S_P
+ *
+ */
+public class Valid_Anagram {
     public boolean isAnagram(String s, String t) {
 
         if (s.length() != t.length())

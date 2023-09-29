@@ -1,4 +1,4 @@
-package leet;
+package leet.easy;
 
 import java.util.HashMap;
 
@@ -15,7 +15,7 @@ import java.util.HashMap;
  * @author S_S_P
  *
  */
-public class Sol_Two_Sum {
+public class Two_Sum {
 
     public int[] twoSum(int[] nums, int target) {
 
