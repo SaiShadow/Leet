@@ -6,14 +6,16 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-/*
+/**
  * My solution to the LeetCode problem: Top K Frequent Elements.
  * 
  * n = # of elements
- * u = # of unique elements
  * 
- * Time Complexity  ∊ O(nlog(n) + un)
+ * Time Complexity ∊ O(n * log(n)) 
  * Space Complexity ∊ O(n)
+ * 
+ * @author S_S_P
+ *
  */
 class Solution_Top_K_Frequent_Elements {
 
